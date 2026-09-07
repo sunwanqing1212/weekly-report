@@ -39,7 +39,11 @@ function fmtRange(dates) {
   return am === bm ? `${a}~${bd}` : `${a}~${b}`; // 同月 "07-24~30"，跨月 "07-31~08-06"
 }
 
-const avg = a => a.reduce((s, v) => s + v, 0) / a.length;
+// 日均：只对非空（数值）单元格求平均，源表某天数据缺失时按实际天数计
+const avg = a => {
+  const v = a.filter(x => typeof x === 'number');
+  return v.length ? v.reduce((s, x) => s + x, 0) / v.length : 0;
+};
 
 // ---------- 用户数与流量（两周各7天日均值对比，口径一致；用户数单位为万） ----------
 const u1 = readSheetRight(F1, '地市用户数', 7);
@@ -122,8 +126,9 @@ const meta = {
   outBase: `分地市周报对比_用户数与流量_${statDate}_第${weekNo}周`,
 };
 
-// ---------- 月均DOU（GB）：本周日均流量 ÷ 本周日均用户数 × 当月天数（1T=1024GB；月天数取本周最后一天所在月份） ----------
-const monthDays = new Date(year, mm, 0).getDate();
+// ---------- 月均DOU（GB）：本周日均流量 ÷ 本周日均用户数 × 当月天数（1T=1024GB；月天数取本周多数天所在月份，即7天中间日所在月份，避免跨月周口径跳变） ----------
+const midMonth = Number(/(\d{2})月\d{2}日/.exec(u2.dates[3])[1]); // 7天中第4天必属占多数的月份
+const monthDays = new Date(year, midMonth, 0).getDate();
 trafRows.forEach(r => {
   r.dou = +(currTraf[r.city] / currUsers[r.city] * monthDays * 1024 / 10000).toFixed(2);
 });
