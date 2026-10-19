@@ -1,253 +1,253 @@
 {
   "userRows": [
     {
-      "city": "徐州",
-      "prev": 18.75,
-      "curr": 18.28,
-      "delta": -0.47,
-      "pct": -2.5,
-      "share": 9
-    },
-    {
       "city": "连云港",
-      "prev": 10.13,
-      "curr": 9.91,
-      "delta": -0.22,
-      "pct": -2.17,
-      "share": 4.88
+      "prev": 10.31,
+      "curr": 9.26,
+      "delta": -1.06,
+      "pct": -10.24,
+      "share": 4.62
     },
     {
-      "city": "苏州",
-      "prev": 46.9,
-      "curr": 46.03,
-      "delta": -0.86,
-      "pct": -1.84,
-      "share": 22.66
-    },
-    {
-      "city": "常州",
-      "prev": 11.62,
-      "curr": 11.42,
-      "delta": -0.21,
-      "pct": -1.78,
-      "share": 5.62
+      "city": "徐州",
+      "prev": 19.02,
+      "curr": 17.15,
+      "delta": -1.87,
+      "pct": -9.84,
+      "share": 8.57
     },
     {
       "city": "宿迁",
-      "prev": 10.3,
-      "curr": 10.17,
-      "delta": -0.12,
-      "pct": -1.19,
-      "share": 5.01
-    },
-    {
-      "city": "盐城",
-      "prev": 14.07,
-      "curr": 13.9,
-      "delta": -0.17,
-      "pct": -1.18,
-      "share": 6.84
-    },
-    {
-      "city": "无锡",
-      "prev": 20.48,
-      "curr": 20.3,
-      "delta": -0.18,
-      "pct": -0.86,
-      "share": 10
-    },
-    {
-      "city": "泰州",
-      "prev": 8.07,
-      "curr": 8.01,
-      "delta": -0.06,
-      "pct": -0.79,
-      "share": 3.94
+      "prev": 10.74,
+      "curr": 9.87,
+      "delta": -0.87,
+      "pct": -8.13,
+      "share": 4.93
     },
     {
       "city": "淮安",
-      "prev": 12.22,
-      "curr": 12.13,
-      "delta": -0.09,
-      "pct": -0.72,
-      "share": 5.97
+      "prev": 12.55,
+      "curr": 11.6,
+      "delta": -0.95,
+      "pct": -7.54,
+      "share": 5.79
     },
     {
-      "city": "南通",
-      "prev": 20.71,
-      "curr": 20.58,
-      "delta": -0.13,
-      "pct": -0.63,
-      "share": 10.13
+      "city": "盐城",
+      "prev": 14.47,
+      "curr": 13.4,
+      "delta": -1.07,
+      "pct": -7.41,
+      "share": 6.69
     },
     {
-      "city": "镇江",
-      "prev": 6.44,
-      "curr": 6.43,
-      "delta": -0.01,
-      "pct": -0.11,
-      "share": 3.17
-    },
-    {
-      "city": "南京",
-      "prev": 18.43,
-      "curr": 18.61,
-      "delta": 0.18,
-      "pct": 0.96,
-      "share": 9.16
+      "city": "泰州",
+      "prev": 8.32,
+      "curr": 7.99,
+      "delta": -0.33,
+      "pct": -3.94,
+      "share": 3.99
     },
     {
       "city": "扬州",
-      "prev": 7.26,
-      "curr": 7.34,
+      "prev": 7.61,
+      "curr": 7.41,
+      "delta": -0.2,
+      "pct": -2.6,
+      "share": 3.7
+    },
+    {
+      "city": "南通",
+      "prev": 20.53,
+      "curr": 20.42,
+      "delta": -0.11,
+      "pct": -0.53,
+      "share": 10.2
+    },
+    {
+      "city": "镇江",
+      "prev": 6.38,
+      "curr": 6.46,
       "delta": 0.08,
-      "pct": 1.08,
-      "share": 3.61
+      "pct": 1.18,
+      "share": 3.22
+    },
+    {
+      "city": "常州",
+      "prev": 10.85,
+      "curr": 11.26,
+      "delta": 0.41,
+      "pct": 3.81,
+      "share": 5.62
+    },
+    {
+      "city": "无锡",
+      "prev": 19.18,
+      "curr": 20.22,
+      "delta": 1.04,
+      "pct": 5.42,
+      "share": 10.1
+    },
+    {
+      "city": "苏州",
+      "prev": 42.82,
+      "curr": 46.12,
+      "delta": 3.31,
+      "pct": 7.73,
+      "share": 23.04
+    },
+    {
+      "city": "南京",
+      "prev": 17.37,
+      "curr": 19.06,
+      "delta": 1.69,
+      "pct": 9.74,
+      "share": 9.52
     }
   ],
   "trafRows": [
     {
+      "city": "淮安",
+      "prev": 109,
+      "curr": 105,
+      "delta": -4.4,
+      "pct": -4.01,
+      "share": 3.9,
+      "dou": 28.7
+    },
+    {
       "city": "徐州",
-      "prev": 218,
-      "curr": 210,
-      "delta": -8.6,
-      "pct": -3.92,
-      "share": 7.91,
-      "dou": 36.45
-    },
-    {
-      "city": "常州",
-      "prev": 118,
-      "curr": 115,
-      "delta": -2.8,
-      "pct": -2.36,
-      "share": 4.34,
-      "dou": 32.05
-    },
-    {
-      "city": "宿迁",
-      "prev": 126,
-      "curr": 124,
-      "delta": -2.8,
-      "pct": -2.23,
-      "share": 4.66,
-      "dou": 38.56
-    },
-    {
-      "city": "盐城",
-      "prev": 135,
-      "curr": 132,
-      "delta": -3,
-      "pct": -2.22,
-      "share": 4.98,
-      "dou": 30.18
+      "prev": 220,
+      "curr": 212,
+      "delta": -8.3,
+      "pct": -3.78,
+      "share": 7.86,
+      "dou": 39.16
     },
     {
       "city": "连云港",
-      "prev": 107,
-      "curr": 106,
-      "delta": -1.9,
-      "pct": -1.76,
-      "share": 3.98,
-      "dou": 33.81
+      "prev": 106,
+      "curr": 103,
+      "delta": -3.3,
+      "pct": -3.1,
+      "share": 3.82,
+      "dou": 35.31
+    },
+    {
+      "city": "宿迁",
+      "prev": 127,
+      "curr": 126,
+      "delta": -0.6,
+      "pct": -0.48,
+      "share": 4.69,
+      "dou": 40.67
+    },
+    {
+      "city": "盐城",
+      "prev": 133,
+      "curr": 133,
+      "delta": 0,
+      "pct": 0.02,
+      "share": 4.94,
+      "dou": 31.53
     },
     {
       "city": "苏州",
-      "prev": 739,
-      "curr": 732,
-      "delta": -7,
-      "pct": -0.94,
-      "share": 27.59,
-      "dou": 50.49
+      "prev": 718,
+      "curr": 736,
+      "delta": 18.3,
+      "pct": 2.55,
+      "share": 27.34,
+      "dou": 50.66
+    },
+    {
+      "city": "南京",
+      "prev": 250,
+      "curr": 257,
+      "delta": 7,
+      "pct": 2.81,
+      "share": 9.56,
+      "dou": 42.88
     },
     {
       "city": "泰州",
       "prev": 99,
-      "curr": 98,
-      "delta": -0.2,
-      "pct": -0.16,
-      "share": 3.71,
-      "dou": 39.03
+      "curr": 101,
+      "delta": 2.9,
+      "pct": 2.9,
+      "share": 3.77,
+      "dou": 40.32
     },
     {
-      "city": "无锡",
-      "prev": 324,
-      "curr": 323,
-      "delta": -0.4,
-      "pct": -0.13,
-      "share": 12.18,
-      "dou": 50.56
-    },
-    {
-      "city": "镇江",
-      "prev": 91,
-      "curr": 91,
-      "delta": -0.1,
-      "pct": -0.11,
-      "share": 3.42,
-      "dou": 44.72
+      "city": "常州",
+      "prev": 113,
+      "curr": 117,
+      "delta": 3.7,
+      "pct": 3.3,
+      "share": 4.33,
+      "dou": 32.89
     },
     {
       "city": "南通",
-      "prev": 258,
-      "curr": 258,
-      "delta": -0.1,
-      "pct": -0.05,
-      "share": 9.72,
-      "dou": 39.79
-    },
-    {
-      "city": "南京",
       "prev": 254,
-      "curr": 254,
-      "delta": -0.1,
-      "pct": -0.04,
-      "share": 9.56,
-      "dou": 43.28
+      "curr": 264,
+      "delta": 10.4,
+      "pct": 4.08,
+      "share": 9.82,
+      "dou": 41.1
     },
     {
-      "city": "淮安",
-      "prev": 107,
-      "curr": 107,
-      "delta": 0,
-      "pct": 0.03,
-      "share": 4.03,
-      "dou": 28.02
+      "city": "镇江",
+      "prev": 90,
+      "curr": 94,
+      "delta": 3.8,
+      "pct": 4.2,
+      "share": 3.49,
+      "dou": 46.22
+    },
+    {
+      "city": "无锡",
+      "prev": 313,
+      "curr": 330,
+      "delta": 16.8,
+      "pct": 5.37,
+      "share": 12.25,
+      "dou": 51.79
     },
     {
       "city": "扬州",
-      "prev": 99,
-      "curr": 104,
-      "delta": 5.4,
-      "pct": 5.49,
-      "share": 3.93,
-      "dou": 45.09
+      "prev": 106,
+      "curr": 114,
+      "delta": 7.7,
+      "pct": 7.28,
+      "share": 4.22,
+      "dou": 48.68
     }
   ],
   "totals": {
-    "prevU": 205.37,
-    "currU": 203.11,
-    "prevT": 2675.42,
-    "currT": 2653.98,
-    "douT": 41.48
+    "prevU": 200.14,
+    "currU": 200.22,
+    "prevT": 2638.48,
+    "currT": 2692.54,
+    "douT": 42.69
   },
   "lastDayUsers": {
-    "prevDate": "08-27",
-    "currDate": "09-03",
-    "prev": 204.79,
-    "curr": 201.41,
-    "delta": -3.38
+    "prevDate": "10-08",
+    "currDate": "10-15",
+    "prev": 199.07,
+    "curr": 200.21,
+    "delta": 1.14
   },
   "meta": {
-    "file1": "gd_2026_08_28_20260828140037.xlsx",
-    "file2": "gd_2026_09_04_20260904140014.xlsx",
-    "range1": "08-21~27",
-    "range2": "08-28~09-03",
-    "prevLabel": "上周(08-21~27日均)",
-    "currLabel": "本周(08-28~09-03日均)",
-    "statDate": "2026-09-03",
-    "weekNo": 36,
-    "outBase": "分地市周报对比_用户数与流量_2026-09-03_第36周",
+    "file1": "gd_2026_10_09_20261009140005.xlsx",
+    "file2": "gd_2026_10_16_20261016140006.xlsx",
+    "range1": "10-02~08",
+    "range2": "10-09~15",
+    "prevLabel": "上周(10-02~08日均)",
+    "currLabel": "本周(10-09~15日均)",
+    "statDate": "2026-10-15",
+    "weekNo": 42,
+    "outBase": "分地市周报对比_用户数与流量_2026-10-15_第42周",
     "monthDays": 31
   }
 }
